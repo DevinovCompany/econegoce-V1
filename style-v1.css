@@ -229,14 +229,21 @@ header menu.econegoce-menu{
 
 .econegoce-logo {
     margin-right: 20px; 
+	width: 20%;
 }
 
+.econegoce-nav {
+	width: 70%;
+	margin-right: 20px;
+}
 .econegoce-nav ul {
     list-style-type: none; 
-    margin: 0; 
     padding: 0; 
     display: flex; 
-    align-items: center; 
+    align-items: center;
+	margin: auto;
+	width: max-content;
+	
 }
 
 .econegoce-nav li {
@@ -253,33 +260,52 @@ header menu.econegoce-menu{
 .econegoce-nav a {
     text-decoration: none; 
     color: #000; 
-    font-size: 14px; 
+    font-size: 14px;
+	padding: 20px;	
+}
+.econegoce-nav .item-nav-parent ul li{
+	padding: 10px 15px !important;
 }
 .econegoce-nav li a:hover {
   color: #00A54D; 
 }
 
 /* Styles pour le sous-menu */
-.econegoce-nav li .sub-menu {
+
+.econegoce-nav .item-nav-parent ul{
   display: none; 
   position: absolute;
   top: 100%; 
-  left: 0;
+  left: -1px;
   background-color: #fff; 
   box-shadow: 0 8px 16px rgba(0,0,0,0.1); 
   border-left: 1px #dddddd solid;
   border-right: 1px #dddddd solid;
   border-bottom: 1px #dddddd solid;
-  min-width: 200px; 
+  min-width: 300px; 
   z-index: 1000; 
 }
 
-.sub-menu li {
+.econegoce-nav .item-nav-parent ul li .sub-menu {
+  display: none; 
+  position: absolute;
+  top: 0; 
+  left: 300px;
+  background-color: #fff; 
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1); 
+  border-left: 1px #dddddd solid;
+  border-right: 1px #dddddd solid;
+  border-bottom: 1px #dddddd solid;
+  min-width: 300px; 
+  z-index: 1000; 
+}
+
+.sub-menu li, .econegoce-nav .item-nav-parent ul li {
 	display: block; 
 	border-right: none;
 }
 
-.econegoce-nav li:hover > .sub-menu {
+.econegoce-nav .item-nav-parent ul li:hover > .sub-menu, .econegoce-nav .item-nav-parent:hover > ul {
 	display: block; 
 }
 
@@ -289,12 +315,17 @@ header menu.econegoce-menu{
   display: block;
   text-decoration: none;
   color: #000;
-  font-size: 17px;
 }
 
-.sub-menu a:hover {
-  color: #00A54D; 
+.econegoce-nav .item-nav-parent ul li:hover{
+  background: #00A54D30;
 }
+
+.econegoce-nav .item-nav-parent ul li a:hover{
+  color: #000000 !important; 
+}
+
+
 
 /* Styles pour le carrousel */
 
@@ -438,7 +469,7 @@ h1 {
 	bottom: -5px;
 	left: 25%;
 	background: #1E56A1;
-	height: 2px;
+	height: 4px;
 }
 
 .section-3 h2::after{
@@ -883,9 +914,37 @@ h1 {
 /* style du footer */
 
 footer{
-	height: 150px;
+	
 	background: #000000;
 	text-align: center; 
 	padding:10px;
 	margin-top: 100px;
+}
+
+footer .slog{
+	font-size:20px;
+	margin:20px auto 30px auto;
+}
+
+footer p {
+	color: #ffffff;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-between; /* Cela répartit les éléments <p> uniformément sur la ligne */
+	margin-bottom: 30px !important;
+}
+
+
+footer div p {
+    display: flex;
+    align-items: center; /* Cela aligne verticalement le texte avec l'image */
+    margin: 0; /* Retire les marges par défaut des paragraphes si nécessaire */
+	font-size: 16px;
+}
+
+footer div p img {
+	width: 30px;
+    margin-right: 10px; /* Ajoute un peu d'espace entre l'image et le texte */
 }
