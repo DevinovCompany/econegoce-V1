@@ -1,0 +1,891 @@
+/* fonte */
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+/* -------- */
+
+body {
+  display: block;
+  width: 100%;
+  height: 2000px;
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+.max-width-1280{
+	width: 1280px;
+	margin: auto;
+}
+
+h1, h2, h3 {
+    margin: 10px 0;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+	font-weight: 500;
+	font-style: normal;
+	font-size: 15px;
+}
+
+p {
+    margin-bottom: 20px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	font-size: 13px;
+}
+/* Styles pour le header */ 
+
+header{
+	width: 100%;
+	height: 120px;
+	background: transparent !important;
+	z-index: 1000;
+	position: relative;
+}
+
+header .top-header{
+	background: #2176A5;
+	width: 100%;
+	height: 90px;
+	padding-top: 20px;
+}
+
+header menu.econegoce-menu{
+	background: #ffffff;
+	border-radius: 50px;
+	width: 1280px;
+	height: 70px;
+	margin: -35px auto 0 auto;
+}
+
+
+/* Styles pour le Top */
+
+.top-header-content{
+    display: flex; 
+    align-items: center; 
+    justify-content: end; 
+    gap: 100px; 
+	margin-right: 100px;
+	color: #ffffff;
+	font-size: 14px; 
+}
+
+.top-header .show-on-desktop {
+    display: flex; 
+    align-items: center; 
+}
+
+.top-header img {
+    margin-right: 8px;
+	width: 20px;
+}
+
+.top-header a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+
+.top-header .first {
+
+}
+
+.top-header .last {
+    background : #00A54D;
+	border-radius: 7px;
+	font-weight: bold;
+	display: flex; 
+	padding: 5px 10px;
+    align-items: center;
+}
+
+.top-header .last span {
+    display: flex;
+    align-items: center;
+}
+
+.top-header .last img {
+    margin-right: 8px; 
+}
+
+/* Styles pour le menu */
+
+.econegoce-menu {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    width: 100%; 
+}
+
+.econegoce-logo {
+    margin-right: 20px; 
+}
+
+.econegoce-nav ul {
+    list-style-type: none; 
+    margin: 0; 
+    padding: 0; 
+    display: flex; 
+    align-items: center; 
+}
+
+.econegoce-nav li {
+    padding: 0 15px; 
+	border-right: 1px #555555 solid;
+	position: relative;
+}
+
+.econegoce-nav li:last-child { 
+	border-right: none;
+	margin-right: 20px;
+}
+
+.econegoce-nav a {
+    text-decoration: none; 
+    color: #000; 
+    font-size: 14px; 
+}
+.econegoce-nav li a:hover {
+  color: #00A54D; 
+}
+
+/* Styles pour le sous-menu */
+.econegoce-nav li .sub-menu {
+  display: none; 
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background-color: #fff; 
+  box-shadow: 0 8px 16px rgba(0,0,0,0.1); 
+  border-left: 1px #dddddd solid;
+  border-right: 1px #dddddd solid;
+  border-bottom: 1px #dddddd solid;
+  min-width: 200px; 
+  z-index: 1000; 
+}
+
+.sub-menu li {
+	display: block; 
+	border-right: none;
+}
+
+.econegoce-nav li:hover > .sub-menu {
+	display: block; 
+}
+
+
+.sub-menu a {
+  padding: 10px 15px;
+  display: block;
+  text-decoration: none;
+  color: #000;
+  font-size: 17px;
+}
+
+.sub-menu a:hover {
+  color: #00A54D; 
+}
+
+/* Styles pour le carrousel */
+
+#carrousel{
+	margin-top: -50px;
+	
+}
+
+.carousel-container {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 500px; /* Hauteur fixe pour le carrousel */
+}
+
+.carousel {
+  display: flex;
+  width: 300%; /* Cela doit être ajusté en fonction du nombre de diapositives */
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel-slide {
+  position: relative;
+  width: 100%; /* Chaque diapositive doit être de la largeur du conteneur */
+  height: 100%;
+  flex-shrink: 0; /* Empêche les diapositives de se réduire */
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5); /* Overlay semi-transparent */
+  color: #fff; /* Texte blanc */
+  z-index: 2; /* S'assure que l'overlay est au-dessus de l'image */
+}
+
+h1 span{
+	font-size: 30px;
+}
+h1 {
+  margin: 0;
+  font-size: 20px;
+  text-align: left;
+  max-width: 350px;
+}
+
+
+.overlay {
+  position: absolute;
+  width: 37%;
+  height: 100%;
+  top: 50px;
+  left: 100px;
+  background: url('images/overlay-image.png') center center no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay h1 {
+  color: white;
+}
+
+.carousel-control {
+  position: absolute;
+  top: 80%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  right: 150px;
+}
+
+.next {
+  right: 100px;
+}
+
+.prev img, .next img{width : 40px;}
+
+/* Styles pour le content */
+
+#page{margin-top: 50px;}
+
+
+/* Styles pour nos activitées */
+
+.section-1, .section-2, .section-3, .section-4, .section-5{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+
+
+.section-1 h2{
+	display: inline-block;
+	position: relative;
+	color: #1E56A1;
+	width: max-content;
+	margin-bottom: 50px;
+	font-size: 40px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.section-2 h2, .section-3 h2, .section-4 h2{
+	display: inline-block;
+	position: relative;
+	color: #1E56A1;
+	width: max-content;
+	margin-bottom: 10px;
+	font-size: 40px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.section-2 h3.sous-titre, .section-3 h3.sous-titre, .section-4 h3.sous-titre, .section-5 h3.sous-titre{
+	margin-bottom: 50px;
+}
+
+
+.section-1 h2::after, .section-2 h2::after, .section-4 h2::after{
+	content:"";
+	width: 50%;
+	position: absolute;
+	bottom: -5px;
+	left: 25%;
+	background: #1E56A1;
+	height: 2px;
+}
+
+.section-3 h2::after{
+	content:"";
+	width: 50%;
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	background: #1E56A1;
+	height: 2px;
+}
+
+.econegoce-activities {
+    display: grid;
+    grid-template-areas:
+        "top-left center top-right"
+        ". bottom .";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 20px;
+    text-align: center;
+}
+
+.econegoce-activities-img{
+	text-align: center;
+    margin: 0 auto; 
+	width : 45px;
+	padding: 11px 10px 8px 10px;
+	border: 1px #0A9642 solid;
+	border-radius: 50%;
+}
+
+.econegoce-activities-img img{
+	width : 40px;
+}
+
+
+
+/* anim bouton */
+.voir-detail {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 5px 10px;
+  border-radius: 7px;
+  color: #0A9642;
+  border: 1px #0A9642 solid;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 7px;
+    z-index: -2;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #0A9642;
+    transition: all .3s;
+    border-radius: 7px;
+    z-index: -1;
+  }
+  &:hover {
+    color: #fff;
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+
+
+.top-left {
+    grid-area: top-left;
+}
+
+.center {
+    grid-area: center;
+	position: relative;
+	margin-bottom: 20px;
+	height: 270px;
+}
+
+.center .econegoce-video{
+	width: 90%;
+	left:5%;
+	top: 0;
+	height: 100%;
+	position: absolute;
+	border-radius: 30px;
+}
+
+.econegoce-video video {
+    width: 90%;
+	background-color: #f5f5f5;
+	border-radius: 30px;
+	border: 1px #f0f0f0 solid;
+    height: 260px; 
+}
+
+.center .econegoce-fond-video{
+	background: #0A9642;
+	width: 56%;
+	left: 22%;
+	bottom: -5px;
+	height: 50px;
+	position: absolute;
+	border-radius: 30px;
+}
+
+.bottom {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    width: 100%;
+    grid-column: 1 / -1; 
+}
+
+.bottom > div {
+    flex: 1; 
+    text-align: center; 
+    padding: 0 10px; 
+}
+
+
+.top-right {
+    grid-area: top-right;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
+
+/* style de la section des features */
+
+.features-container,.sub-features-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.feature{
+	background-color: #f0f0f0;
+	border-radius: 10px;
+	border: 1px #dfdfdf solid;
+	padding: 5px 10px;
+    display: flex;
+    align-items: center; 
+    margin: 20px 10px;
+	width: 260px;
+}
+
+.feature:hover{
+	cursor: pointer;
+	background-color: #dfdfdf;
+	border-radius: 10px;
+	border: 1px #afafaf solid;
+}
+
+
+.feature{
+	border-radius: 10px;
+	border: 1px #dfdfdf solid;
+	padding: 5px 10px;
+    display: flex;
+    align-items: center; 
+    margin: 20px 10px;
+	width: 260px;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f0f0f0;
+    border-radius: 7px;
+    z-index: -2;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #dfdfdf;
+    transition: all .3s;
+    border-radius: 7px;
+    z-index: -1;
+  }
+  &:hover {
+    color: #000;
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+
+.sub-feature {
+    display: flex;
+    align-items: center; 
+    margin: 20px;
+	width: 200px;
+}
+
+.sub-feature img{ 
+	width: 30px; 
+    height: auto; 
+    margin-right: 10px;
+	margin-top: -5px;
+}
+.feature img {
+    width: 80px; 
+    height: auto; 
+    margin-right: 20px; 
+}
+
+.feature div, .sub-feature div{
+    text-align: left;
+}
+.sub-feature div p{
+    line-height: 13px;
+}
+
+/* Style de la section 3 service avant tout */
+
+.section-3{
+	background: #f0f0f0;
+	padding: 10px 50px;
+}
+
+.service-section {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 20px; 
+	text-align: left;
+}
+
+.service-image img {
+    width: 100%; 
+    max-width: 500px; 
+    height: auto; 
+	margin-right: 100px;
+}
+
+.service-content {
+    flex: 1; 
+    padding-left: 20px; 
+}
+.service-content p {
+		font-size: 16px;
+}
+
+.contact {
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  padding: 5px 10px;
+  border-radius: 7px;
+  color: #0A9642;
+  border: 1px #0A9642 solid;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border-radius: 7px;
+    z-index: -2;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #0A9642;
+    transition: all .3s;
+    border-radius: 7px;
+    z-index: -1;
+  }
+  &:hover {
+    color: #fff;
+    &:before {
+      width: 100%;
+    }
+  }
+}
+
+/* Style de la section des partenaires */
+
+.partners-sponsors {
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+.logos-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colonnes égales */
+    grid-gap: 20px; /* Espace entre les logos */
+    justify-items: center;
+}
+
+.logo-item {
+    background: #fff; /* Fond blanc pour les logos */
+    border-radius: 15px; /* Coins arrondis pour les logos */
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombre légère pour donner du relief */
+}
+
+.logo-item img {
+    width: 150px; /* Ajustez la largeur selon la taille souhaitée pour vos logos */
+    height: auto; /* Maintient le rapport hauteur/largeur */
+}
+
+/* Style de la section contact */
+
+.section-5{
+	position: relative;
+	text-align: left !important;
+
+}
+
+.contact-section {
+	width:70%;
+	margin: auto;
+	position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #17195A; /* Adjust to match your color scheme */
+    color: white;
+    padding: 20px;
+	border-radius: 30px;
+}
+
+.ombre-contact{
+	width:68%;
+    position: absolute;
+	bottom: -15px;
+	left: 16%;
+	height: 100px;
+	border-radius: 30px;
+    background: #0A9642;
+
+}
+
+
+.contact-content {
+    max-width: 50%;
+}
+
+.section-5 h2{
+	display: inline-block;
+	position: relative;
+	color: #ffffff;
+	width: max-content;
+	margin-bottom: 10px;
+	font-size: 40px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.section-5 h2::after{
+	content:"";
+	width: 50%;
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	background: #ffffff;
+	height: 2px;
+}
+
+.contact-content .btn-quote {
+    background-color: #00A859; /* Adjust to match your button color */
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.contact-content .phone {
+    font-weight: bold;
+}
+
+.contact-image{
+	text-align: right;
+}
+
+.contact-image img {
+    max-width: 60%;
+    height: auto;
+	margin-bottom: -25px;
+}
+
+
+
+
+/* style du footer */
+
+footer{
+	height: 150px;
+	background: #000000;
+	text-align: center; 
+	padding:10px;
+	margin-top: 100px;
+}
