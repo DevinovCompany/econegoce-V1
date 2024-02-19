@@ -153,7 +153,7 @@ header{
 }
 
 header .top-header{
-	background: #2176A5;
+	background: #0a9642;
 	width: 100%;
 	height: 90px;
 	padding-top: 20px;
@@ -201,7 +201,7 @@ header menu.econegoce-menu{
 }
 
 .top-header .last {
-    background : #00A54D;
+    background : #2176A5;
 	border-radius: 7px;
 	font-weight: bold;
 	display: flex; 
@@ -381,7 +381,7 @@ h1 {
   margin: 0;
   font-size: 20px;
   text-align: left;
-  max-width: 350px;
+  /* max-width: 350px; */
 }
 
 
@@ -908,7 +908,75 @@ h1 {
 	margin-bottom: -25px;
 }
 
+/* style page photovoltaique */
 
+.introduction {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.photovoltaique h1{
+	display: inline-block;
+	position: relative;
+	color: #1E56A1;
+	width: max-content;
+	margin-bottom: 30px;
+	font-size: 40px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.photovoltaique h2{
+	display: inline-block;
+	position: relative;
+	color: #1E56A1;
+	width: max-content;
+	margin-bottom: 20px;
+	font-size: 30px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.introduction h1::after{
+	content:"";
+	width: 50%;
+	position: absolute;
+	bottom: -5px;
+	left: 25%;
+	background: #1E56A1;
+	height: 4px;
+}
+
+.kit-photovoltaique h2::after, .coffrets-ac h2::after, .fixation h2::after, .onduleurs h2::after{
+	content:"";
+	width: 50%;
+	position: absolute;
+	bottom: -5px;
+	left: 0;
+	background: #1E56A1;
+	height: 4px;
+}
+
+.photovoltaique p{
+	font-size: 14px;
+}
+
+.photovoltaique section {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.photovoltaique section img {
+    width: 40%;
+    height: auto;
+    margin: 0 20px;
+}
+
+.photovoltaique section div {
+    flex: 1;
+}
 
 
 /* style du footer */
