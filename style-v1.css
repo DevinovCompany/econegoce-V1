@@ -965,10 +965,10 @@ h1 {
 .photovoltaique section {
     display: flex;
     align-items: center;
-    margin-bottom: 1rem;
+    margin-bottom: 50px;
 }
 
-.photovoltaique section img {
+.photovoltaique .kit-photovoltaique  img, .photovoltaique .coffrets-ac img, .photovoltaique .fixation img, .photovoltaique .onduleurs img{
     width: 40%;
     height: auto;
     margin: 0 20px;
@@ -978,6 +978,18 @@ h1 {
     flex: 1;
 }
 
+.photovoltaique section-5 {
+	margin-top: 50px; 
+}
+
+.photovoltaique .contact-section h2{
+	color: #ffffff !important;
+}
+.photovoltaique .contact-image img {
+    max-width: 60% !important;
+    height: auto;
+	margin-bottom: -100px !important;
+}
 
 /* style du footer */
 
