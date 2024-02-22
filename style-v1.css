@@ -915,7 +915,7 @@ h1 {
 	text-align: center;
 }
 
-.photovoltaique h1{
+.chaudieres h1, .photovoltaique h1{
 	display: inline-block;
 	position: relative;
 	color: #1E56A1;
@@ -926,7 +926,7 @@ h1 {
 	font-weight: 700;
 	font-style: normal;
 }
-.photovoltaique h2{
+.photovoltaique h2, .chaudieres h2{
 	display: inline-block;
 	position: relative;
 	color: #1E56A1;
@@ -948,7 +948,8 @@ h1 {
 	height: 4px;
 }
 
-.kit-photovoltaique h2::after, .coffrets-ac h2::after, .fixation h2::after, .onduleurs h2::after{
+.kit-photovoltaique h2::after, .coffrets-ac h2::after, .fixation h2::after, .onduleurs h2::after,
+.chauffe-eau-electrique  h2::after, .chauffe-eau-thermodynamique h2::after, .chauffe-eau-solaire h2::after, .poeles-a-granules h2::after{
 	content:"";
 	width: 50%;
 	position: absolute;
@@ -958,39 +959,60 @@ h1 {
 	height: 4px;
 }
 
-.photovoltaique p{
+.chaudieres p, .photovoltaique p{
 	font-size: 14px;
 }
 
-.photovoltaique section {
+.chaudieres section, .photovoltaique section {
     display: flex;
     align-items: center;
     margin-bottom: 50px;
 }
 
-.photovoltaique .kit-photovoltaique  img, .photovoltaique .coffrets-ac img, .photovoltaique .fixation img, .photovoltaique .onduleurs img{
+.chaudieres .performances .main-image, .photovoltaique .kit-photovoltaique  img, .photovoltaique .coffrets-ac img, .photovoltaique .fixation img, .photovoltaique .onduleurs img{
     width: 40%;
     height: auto;
     margin: 0 20px;
 }
 
-.photovoltaique section div {
+.chaudieres .chauffe-eau-electrique  img, .chaudieres .chauffe-eau-thermodynamique img, .chaudieres .chauffe-eau-solaire img, .chaudieres .poeles-a-granules img{
+    width: 40%;
+    height: auto;
+    margin: 0 20px;
+}
+
+.chaudieres section div, .photovoltaique section div {
     flex: 1;
 }
 
-.photovoltaique section-5 {
+.photovoltaique section-5, .chaudieres section-5 {
 	margin-top: 50px; 
 }
 
-.photovoltaique .contact-section h2{
+.photovoltaique .contact-section h2, .chaudieres .contact-section h2{
 	color: #ffffff !important;
 }
-.photovoltaique .contact-image img {
+.photovoltaique .contact-image img{
     max-width: 60% !important;
     height: auto;
 	margin-bottom: -100px !important;
 }
 
+.chaudieres .contact-image img {
+    max-width: 60% !important;
+    height: auto;
+	margin-bottom: -27px;
+	
+}
+
+
+.chaudieres .sub-feature {
+  flex: none !important;
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  width: 30%;
+}
 /* style du footer */
 
 footer{
@@ -1028,3 +1050,5 @@ footer div p img {
 	width: 30px;
     margin-right: 10px; /* Ajoute un peu d'espace entre l'image et le texte */
 }
+
+
