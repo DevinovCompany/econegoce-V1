@@ -836,6 +836,7 @@ h1 {
 }
 
 .contact-section {
+	flex: none !important;
 	width:70%;
 	margin: auto;
 	position: relative;
